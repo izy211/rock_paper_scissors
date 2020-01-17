@@ -1,7 +1,8 @@
+#!/usr/bin/env python3
 import random
 import sys
 
-
+#Greet player
 print('Lets play rock, paper, scissors!')
 
 #Keep track of stats
@@ -10,6 +11,7 @@ losses = 0
 ties = 0
 
 while True:
+    #Show player stats
     print(f'Wins {wins} Losses {losses} Ties {ties}')
     while True:
         #Show options menu
@@ -43,7 +45,7 @@ while True:
         computerMove = 's'
         print('SCISSORS')
     
-    #Compare player and computer selections
+    #Compare player and computer selections and update stats
     if playerMove == computerMove:
         print('Its a tie!\n')
         ties += 1
