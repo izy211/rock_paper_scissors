@@ -63,7 +63,7 @@ def main():
     print('Lets play rock, paper, scissors!')
     while True:
         result = results(player_move(), computer_move())
-
+        #Keep track of stats
         if result == 'win':
             wins += 1
         elif result == 'lose':
