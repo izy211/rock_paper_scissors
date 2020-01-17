@@ -14,11 +14,11 @@ def player_move():
             sys.exit()
         elif playerMove in ['r', 'p', 's']:
             if playerMove == 'r':
-                print('\nROCK versus...')
+                print('\nROCK\nvs')
             elif playerMove == 'p':
-                print('\nPAPER versus...')
+                print('\nPAPER\nvs')
             elif playerMove == 's':
-                print('\nSCISSORS versus...')
+                print('\nSCISSORS\nvs')
             return playerMove
         else:
             print('An invalid choice was entered. Please choose R, P, S to play or Q to quite (Not Case Sensitivity)')
