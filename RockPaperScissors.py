@@ -41,6 +41,7 @@ def computer_move():
 
 def results(playerMove, computerMove):
     #Compare player and computer selections
+    print('='*10)
     if playerMove == computerMove:
         print('Its a tie!\n')
         result = 'tie'
