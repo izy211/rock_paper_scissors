@@ -15,9 +15,9 @@ def player_move():
         elif playerMove in ['r', 'p', 's']:
             if playerMove == 'r':
                 print('\nROCK versus...')
-            if playerMove == 'p':
+            elif playerMove == 'p':
                 print('\nPAPER versus...')
-            if playerMove == 's':
+            elif playerMove == 's':
                 print('\nSCISSORS versus...')
             return playerMove
         else:
@@ -30,10 +30,10 @@ def computer_move():
     if randomChoice == 1:
         computerMove = 'r'
         print('ROCK')
-    if randomChoice == 2:
+    elif randomChoice == 2:
         computerMove = 'p'
         print('PAPER')
-    if randomChoice == 3:
+    elif randomChoice == 3:
         computerMove = 's'
         print('SCISSORS')
     return computerMove
@@ -66,9 +66,9 @@ def main():
         #Keep track of stats
         if result == 'win':
             wins += 1
-        if result == 'lose':
+        elif result == 'lose':
             losses += 1
-        if result == 'tie':
+        elif result == 'tie':
             ties += 1
 
         print(f'Wins {wins} Losses {losses} Ties {ties}')
