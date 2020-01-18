@@ -73,7 +73,7 @@ def main():
         elif result == 'tie':
             ties += 1
 
-        print(f'Wins {wins} Losses {losses} Ties {ties}')
+        print(f'Wins: {wins} Losses: {losses} Ties: {ties}')
 
     
 if __name__ == '__main__':
