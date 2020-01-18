@@ -45,7 +45,7 @@ def results(playerMove, computerMove):
     if playerMove == computerMove:
         print('Its a tie!\n')
         result = 'tie'
-    elif f'{playerMove}{computerMove}' in ['pr', 'sp', 'rs']:
+    elif playerMove+computerMove in ['pr', 'sp', 'rs']:
         print('You win!\n')
         result = 'win'
     else:
