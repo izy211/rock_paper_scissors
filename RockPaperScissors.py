@@ -11,6 +11,7 @@ def player_move():
         playerMove = input()
         playerMove = playerMove.lower()
         if playerMove == 'q':
+            print('Thanks for playing!')
             sys.exit()
         elif playerMove in ['r', 'p', 's']:
             if playerMove == 'r':
