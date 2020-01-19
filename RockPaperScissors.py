@@ -22,7 +22,7 @@ def player_move():
                 print('\nSCISSORS\nvs')
             return playerMove
         else:
-            print('An invalid choice was entered. Please choose R, P, S to play or Q to quite (Not Case Sensitivity)')
+            print('An invalid choice was entered. Please choose R, P, S to play or Q to quite (case-insensitive)')
 
 
 def computer_move():
