@@ -57,12 +57,12 @@ def results(playerMove, computerMove):
 
 def main():
     os.system('clear')
+    print('Lets play rock, paper, scissors!')
     
     wins = 0
     losses = 0
     ties = 0
     
-    print('Lets play rock, paper, scissors!')
     while True:
         result = results(player_move(), computer_move())
         #Keep track of stats
