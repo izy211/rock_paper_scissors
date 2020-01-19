@@ -72,7 +72,6 @@ def main():
             losses += 1
         elif result == 'tie':
             ties += 1
-
         print(f'Wins: {wins} Losses: {losses} Ties: {ties}')
 
     
